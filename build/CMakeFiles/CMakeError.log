@@ -1,0 +1,81 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/arjam/Gits/Spyder 2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_56e6c/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_56e6c.dir\build.make CMakeFiles/cmTC_56e6c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/arjam/Gits/Spyder 2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56e6c.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_56e6c.dir\CheckIncludeFile.c.obj -c "C:\Users\arjam\Gits\Spyder 2\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Users\arjam\Gits\Spyder 2\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:21: fatal error: pthread.h: No such file or directory
+ #include <pthread.h>
+                     ^
+compilation terminated.
+CMakeFiles\cmTC_56e6c.dir\build.make:83: recipe for target 'CMakeFiles/cmTC_56e6c.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_56e6c.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/arjam/Gits/Spyder 2/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_56e6c/fast' failed
+mingw32-make.exe: *** [cmTC_56e6c/fast] Error 2
+
+
+
+Determining if the include file dinput.h exists failed with the following output:
+Change Dir: C:/Users/arjam/Gits/Spyder 2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_09e09/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_09e09.dir\build.make CMakeFiles/cmTC_09e09.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/arjam/Gits/Spyder 2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09e09.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_09e09.dir\CheckIncludeFile.c.obj -c "C:\Users\arjam\Gits\Spyder 2\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Users\arjam\Gits\Spyder 2\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:20: fatal error: dinput.h: No such file or directory
+ #include <dinput.h>
+                    ^
+compilation terminated.
+CMakeFiles\cmTC_09e09.dir\build.make:83: recipe for target 'CMakeFiles/cmTC_09e09.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_09e09.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/arjam/Gits/Spyder 2/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_09e09/fast' failed
+mingw32-make.exe: *** [cmTC_09e09/fast] Error 2
+
+
+
+Determining if the include file xinput.h exists failed with the following output:
+Change Dir: C:/Users/arjam/Gits/Spyder 2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_5a540/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5a540.dir\build.make CMakeFiles/cmTC_5a540.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/arjam/Gits/Spyder 2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a540.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_5a540.dir\CheckIncludeFile.c.obj -c "C:\Users\arjam\Gits\Spyder 2\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Users\arjam\Gits\Spyder 2\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:20: fatal error: xinput.h: No such file or directory
+ #include <xinput.h>
+                    ^
+compilation terminated.
+CMakeFiles\cmTC_5a540.dir\build.make:83: recipe for target 'CMakeFiles/cmTC_5a540.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_5a540.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/arjam/Gits/Spyder 2/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_5a540/fast' failed
+mingw32-make.exe: *** [cmTC_5a540/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test _GLFW_HAS_64ASLR failed with the following output:
+Change Dir: C:/Users/arjam/Gits/Spyder 2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_4ba38/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4ba38.dir\build.make CMakeFiles/cmTC_4ba38.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/arjam/Gits/Spyder 2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ba38.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va -o CMakeFiles\cmTC_4ba38.dir\src.c.obj -c "C:\Users\arjam\Gits\Spyder 2\build\CMakeFiles\CMakeTmp\src.c"
+Linking C executable cmTC_4ba38.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4ba38.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_4ba38.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_4ba38.dir/objects.a @CMakeFiles\cmTC_4ba38.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va -Wl,--whole-archive CMakeFiles\cmTC_4ba38.dir/objects.a -Wl,--no-whole-archive -o cmTC_4ba38.exe -Wl,--out-implib,libcmTC_4ba38.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4ba38.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: unrecognized option '--high-entropy-va'
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_4ba38.dir\build.make:106: recipe for target 'cmTC_4ba38.exe' failed
+mingw32-make.exe[1]: *** [cmTC_4ba38.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/arjam/Gits/Spyder 2/build/CMakeFiles/CMakeTmp'
+Makefile:139: recipe for target 'cmTC_4ba38/fast' failed
+mingw32-make.exe: *** [cmTC_4ba38/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
