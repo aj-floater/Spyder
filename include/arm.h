@@ -109,16 +109,16 @@ public:
         else PropertyManager::invalid = false;
     }
 
-    void MoveEndPositionTo(Position new_position, float speed, bool apply_ground_offset){
+    void MoveEndPositionTo(Position new_position, float time, bool apply_ground_offset){
         start = end_point;
         end = new_position;
-        this->speed = speed;
         distance = DistanceNoY(start, end);
-        if (distance/speed < 0.5) speed *= (distance/speed)/2;
+        this->speed = distance / time;
+        // if (distance < 0.2) this->speed = distance / (time * 2);
         direction = Normalize(end - start);
         moving = true;
         this->apply_ground_offset = apply_ground_offset;
-        if (distance/speed < 0.5) this->apply_ground_offset = false;
+        // this->apply_ground_offset = false;
         y_offset_angle = 0;
         MovementType = STRAIGHT;
     }
@@ -154,7 +154,7 @@ public:
         return a;
     }
 
-    void MoveEndPositionAroundPointAtAngle(Position *point, float angle, float speed, int ID, bool apply_ground_offset){
+    void MoveEndPositionAroundPointAtAngle(Position *point, float angle, float time, int ID, bool apply_ground_offset){
         float current_angle = atan2(end_point.z - point->z, end_point.x - point->x);
         if (ID == 3 && current_angle < 0){
             current_angle = M_PI*2 + current_angle;
@@ -162,7 +162,6 @@ public:
         float smallest_angle = smallestAngleBetween(angle, current_angle);
         start_angle = current_angle;
         end_angle = angle;
-        this->speed = speed;
         if (smallest_angle < 0){
             direction_angle = -1;
             distance = abs(smallest_angle);
@@ -171,6 +170,7 @@ public:
             direction_angle = 1;
             distance = abs(smallest_angle);
         }
+        this->speed = distance/time;
         this->ID = ID; 
         moving = true;
         this->apply_ground_offset = apply_ground_offset;
@@ -196,7 +196,7 @@ public:
             end_point.z = radius * sin(end_angle);
             moving = false;
         }
-        if (direction_angle < 0 && start_angle <= end_angle){
+        else if (direction_angle < 0 && start_angle <= end_angle){
             end_point.x = radius * cos(end_angle);
             end_point.z = radius * sin(end_angle);
             moving = false;
@@ -209,7 +209,7 @@ public:
         if (moving){
             if (MovementType == STRAIGHT)
                 ApplySTRAIGHTMovement();
-            if (MovementType == CIRCULAR){
+            else if (MovementType == CIRCULAR){
                 ApplyCIRCULARMovement();
             }
         }

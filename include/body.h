@@ -20,15 +20,18 @@ class Body{
     }
 public:
     Position position, world_position;
+    float world_angle;
+
     float x_rotation, z_rotation;
     float width, length;
     Arm arms[6];
 
     Cube body;
 
-    float speed;
     Position walk;
-    bool walking, turning, resting;
+    float turn, time = 1;
+    bool walking, walk_to_turn, turning, resting;
+    bool turn_callibrated;
     int section_number = 0;
 
     float angle;
@@ -113,61 +116,67 @@ public:
         SetArmRestPoint(&arms[4], Position(position.x + width/2 + 1, 0, position.z + -length/2-1));
         SetArmRestPoint(&arms[5], Position(position.x + width/2 + 1, 0, position.z + length/2 +1));
 
-        if (walking && !resting){
-            Position direction;
-            if (!(walk == Position(0, 0, 0))) direction = Normalize(Position(world_position.x + walk.x, world_position.y, world_position.z + walk.z) - world_position);
-            else direction = Position(0, 0, 0);
-            world_position.x += -direction.x * speed * PropertyManager::delta_time;
-            world_position.z += -direction.z * speed * PropertyManager::delta_time;
-        }
-        
         bool all_stopped = true;
         for (int i = 0; i < 6; i++){
-            ApplyRotations(&arms[i]);
-            arms[i].Update();
             if (arms[i].moving) all_stopped = false;
         }
-        if (all_stopped && walking && !resting){
+        if (all_stopped && walking){
             if (section_number == 0){
                 for (int i = 0; i < 3; i++){
-                    arms[i].MoveEndPositionTo(Position(arms[i].end_rest_point.x + walk.x, arms[i].end_rest_point.y, arms[i].end_rest_point.z + walk.z), speed, true);
+                    arms[i].MoveEndPositionTo(Position(arms[i].end_rest_point.x + walk.x, arms[i].end_rest_point.y, arms[i].end_rest_point.z + walk.z), time, true);
                 }
                 for (int i = 3; i < 6; i++){
-                    arms[i].MoveEndPositionTo(Position(arms[i].end_rest_point.x - walk.x, arms[i].end_rest_point.y, arms[i].end_rest_point.z - walk.z), speed, false);
+                    arms[i].MoveEndPositionTo(Position(arms[i].end_rest_point.x - walk.x, arms[i].end_rest_point.y, arms[i].end_rest_point.z - walk.z), time, false);
                 }
                 section_number = 1;
             }
             else if (section_number == 1){
                 for (int i = 3; i < 6; i++){
-                    arms[i].MoveEndPositionTo(Position(arms[i].end_rest_point.x + walk.x, arms[i].end_rest_point.y, arms[i].end_rest_point.z + walk.z), speed, true);
+                    arms[i].MoveEndPositionTo(Position(arms[i].end_rest_point.x + walk.x, arms[i].end_rest_point.y, arms[i].end_rest_point.z + walk.z), time, true);
                 }
                 for (int i = 0; i < 3; i++){
-                    arms[i].MoveEndPositionTo(Position(arms[i].end_rest_point.x - walk.x, arms[i].end_rest_point.y, arms[i].end_rest_point.z - walk.z), speed, false);
+                    arms[i].MoveEndPositionTo(Position(arms[i].end_rest_point.x - walk.x, arms[i].end_rest_point.y, arms[i].end_rest_point.z - walk.z), time, false);
                 }
                 section_number = 0;
             }
         }
-        if (all_stopped && turning && !resting){
+        if (all_stopped && walk_to_turn){
             if (section_number == 0){
                 for (int i = 0; i < 3; i++){
-                    arms[i].MoveEndPositionAroundPointAtAngle(&position, arms[i].rest_angle + 0.174533, 0.26 * speed, i, true);
+                    arms[i].MoveEndPositionTo(Position(arms[i].radius * cosf(arms[i].rest_angle - turn), arms[i].end_rest_point.y, arms[i].radius * sinf(arms[i].rest_angle - turn)), time, false);
                 }
                 for (int i = 3; i < 6; i++){
-                    arms[i].MoveEndPositionAroundPointAtAngle(&position, arms[i].rest_angle - 0.174533, 0.26 * speed, i, false);
+                    arms[i].MoveEndPositionTo(Position(arms[i].radius * cosf(arms[i].rest_angle + turn), arms[i].end_rest_point.y, arms[i].radius * sinf(arms[i].rest_angle + turn)), time, true);
+                }
+                section_number = 1;
+            }
+            else if (section_number == 1){
+                turn_callibrated = true;
+                section_number = 0;
+                walk_to_turn = false;
+            }
+        }
+        if (all_stopped && turning){
+            if (section_number == 0){
+                for (int i = 0; i < 3; i++){
+                    arms[i].MoveEndPositionAroundPointAtAngle(&position, arms[i].rest_angle + turn, time, i, true);
+                }
+                for (int i = 3; i < 6; i++){
+                    arms[i].MoveEndPositionAroundPointAtAngle(&position, arms[i].rest_angle - turn, time, i, false);
                 }
                 section_number = 1;
             }
             else if (section_number == 1){
                 for (int i = 3; i < 6; i++){
-                    arms[i].MoveEndPositionAroundPointAtAngle(&position, arms[i].rest_angle + 0.174533, 0.26 * speed, i, true);
+                    arms[i].MoveEndPositionAroundPointAtAngle(&position, arms[i].rest_angle + turn, time, i, true);
                 }
                 for (int i = 0; i < 3; i++){
-                    arms[i].MoveEndPositionAroundPointAtAngle(&position, arms[i].rest_angle - 0.174533, 0.26 * speed, i, false);
+                    arms[i].MoveEndPositionAroundPointAtAngle(&position, arms[i].rest_angle - turn, time, i, false);
                 }
                 section_number = 0;
             }
         }
-        if (all_stopped && resting){
+        else if (all_stopped && resting){
             bool rested = true;
             for (int i = 0; i < 6; i++){
                 if (Distance(arms[i].end_rest_point, arms[i].end_point) > 0) rested = false;
@@ -175,15 +184,13 @@ public:
             if (!rested){
                 if (section_number == 0){
                     for (int i = 0; i < 3; i++){
-                        float distance = Distance(arms[i].end_rest_point, arms[i].end_point);
-                        arms[i].MoveEndPositionTo(Position(arms[i].end_rest_point.x, arms[i].end_rest_point.y, arms[i].end_rest_point.z), distance * 2, true);
+                        arms[i].MoveEndPositionTo(Position(arms[i].end_rest_point.x, arms[i].end_rest_point.y, arms[i].end_rest_point.z), 0.5, true);
                     }
                     section_number = 1;
                 }
                 else if (section_number == 1){
                     for (int i = 3; i < 6; i++){
-                        float distance = Distance(arms[i].end_rest_point, arms[i].end_point);
-                        arms[i].MoveEndPositionTo(Position(arms[i].end_rest_point.x, arms[i].end_rest_point.y, arms[i].end_rest_point.z), distance * 2, true);
+                        arms[i].MoveEndPositionTo(Position(arms[i].end_rest_point.x, arms[i].end_rest_point.y, arms[i].end_rest_point.z), 0.5, true);
                     }
                     section_number = 0;
                 }
@@ -192,6 +199,11 @@ public:
                 resting = false;
                 section_number = 0;
             }
+        }
+
+        for (int i = 0; i < 6; i++){
+            ApplyRotations(&arms[i]);
+            arms[i].Update();
         }
     }
 

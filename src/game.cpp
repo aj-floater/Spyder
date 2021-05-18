@@ -161,6 +161,7 @@ void Game::RenderLoop(){
     plane.shader.setMat4("view", view);
     plane.shader.setMat4("projection", projection);
     model = glm::mat4(1.0f);
+    model = glm::rotate(model, body.world_angle, glm::vec3(0, 1, 0));
     model = glm::translate(model, glm::vec3(body.world_position.x, 0, body.world_position.z));
     model = glm::scale(model, glm::vec3(100));
     plane.shader.setMat4("model", model);
@@ -177,7 +178,7 @@ void Game::RenderLoop(){
     body.position.x = body_position[0];
     body.position.y = body_position[1];
     body.position.z = body_position[2];
-    ImGui::DragFloat("speed", &body.speed, 0.01);
+    ImGui::DragFloat("speed", &body.time, 0.01);
     ImGui::Separator();
     if(ImGui::RadioButton("walking", body.walking)) {
         body.walking = !body.walking;
