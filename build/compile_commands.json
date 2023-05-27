@@ -1,0 +1,497 @@
+[
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o CMakeFiles/GLAD.dir/src/third-party/glad.c.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/glad.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/src/third-party/glad.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/STB_IMAGE.dir/src/third-party/stb_image.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/stb_image.cpp",
+  "file": "/Users/archiejames/coding/Spyder_copy/src/third-party/stb_image.cpp"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/game.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/game.cpp",
+  "file": "/Users/archiejames/coding/Spyder_copy/src/game.cpp"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/get_path.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/get_path.cpp",
+  "file": "/Users/archiejames/coding/Spyder_copy/src/get_path.cpp"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/main.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/main.cpp",
+  "file": "/Users/archiejames/coding/Spyder_copy/src/main.cpp"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/position.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/position.cpp",
+  "file": "/Users/archiejames/coding/Spyder_copy/src/position.cpp"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/property_manager.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/property_manager.cpp",
+  "file": "/Users/archiejames/coding/Spyder_copy/src/property_manager.cpp"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/resource_manager.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/resource_manager.cpp",
+  "file": "/Users/archiejames/coding/Spyder_copy/src/resource_manager.cpp"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui.cpp",
+  "file": "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui.cpp"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui_demo.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_demo.cpp",
+  "file": "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_demo.cpp"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui_draw.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_draw.cpp",
+  "file": "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_draw.cpp"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui_tables.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_tables.cpp",
+  "file": "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_tables.cpp"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui_widgets.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_widgets.cpp",
+  "file": "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_widgets.cpp"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/src -I/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/context.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/src/context.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/src/context.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/src -I/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/init.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/src/init.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/src/init.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/src -I/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/input.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/src/input.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/src/input.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/src -I/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/monitor.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/src/monitor.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/src/monitor.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/src -I/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/vulkan.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/src/vulkan.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/src/vulkan.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/src -I/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/window.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/src/window.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/src/window.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/src -I/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_init.m.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/src/cocoa_init.m",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/src/cocoa_init.m"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/src -I/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_joystick.m.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/src/cocoa_joystick.m",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/src/cocoa_joystick.m"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/src -I/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_monitor.m.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/src/cocoa_monitor.m",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/src/cocoa_monitor.m"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/src -I/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_window.m.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/src/cocoa_window.m",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/src/cocoa_window.m"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/src -I/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_time.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/src/cocoa_time.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/src/cocoa_time.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/src -I/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_thread.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/src/posix_thread.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/src/posix_thread.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/src -I/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/nsgl_context.m.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/src/nsgl_context.m",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/src/nsgl_context.m"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/src -I/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/egl_context.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/src/egl_context.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/src/egl_context.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/src -I/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/src -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/src/osmesa_context.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/src/osmesa_context.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/boing.dir/boing.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/examples/boing.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/examples/boing.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/boing.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/gears.dir/gears.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/examples/gears.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/examples/gears.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/gears.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/heightmap.dir/heightmap.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/examples/heightmap.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/examples/heightmap.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/heightmap.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/offscreen.dir/offscreen.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/examples/offscreen.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/examples/offscreen.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/offscreen.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/particles.dir/particles.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/examples/particles.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/examples/particles.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/particles.dir/__/deps/tinycthread.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/tinycthread.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/tinycthread.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/particles.dir/__/deps/getopt.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/getopt.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/getopt.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/particles.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/sharing.dir/sharing.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/examples/sharing.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/examples/sharing.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/sharing.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/simple.dir/simple.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/examples/simple.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/examples/simple.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/simple.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/splitview.dir/splitview.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/examples/splitview.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/examples/splitview.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/splitview.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/wave.dir/wave.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/examples/wave.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/examples/wave.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/examples",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/wave.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/clipboard.dir/clipboard.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/clipboard.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/clipboard.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/clipboard.dir/__/deps/getopt.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/getopt.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/getopt.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/clipboard.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/events.dir/events.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/events.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/events.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/events.dir/__/deps/getopt.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/getopt.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/getopt.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/events.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/msaa.dir/msaa.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/msaa.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/msaa.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/msaa.dir/__/deps/getopt.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/getopt.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/getopt.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/msaa.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/glfwinfo.dir/glfwinfo.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/glfwinfo.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/glfwinfo.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/getopt.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/getopt.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_vulkan.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_vulkan.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/iconify.dir/iconify.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/iconify.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/iconify.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/iconify.dir/__/deps/getopt.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/getopt.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/getopt.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/iconify.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/monitors.dir/monitors.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/monitors.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/monitors.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/monitors.dir/__/deps/getopt.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/getopt.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/getopt.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/monitors.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/reopen.dir/reopen.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/reopen.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/reopen.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/reopen.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/cursor.dir/cursor.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/cursor.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/cursor.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/cursor.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/empty.dir/empty.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/empty.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/empty.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/empty.dir/__/deps/tinycthread.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/tinycthread.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/tinycthread.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/empty.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/gamma.dir/gamma.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/gamma.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/gamma.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/gamma.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/icon.dir/icon.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/icon.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/icon.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/icon.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/inputlag.dir/inputlag.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/inputlag.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/inputlag.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/inputlag.dir/__/deps/getopt.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/getopt.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/getopt.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/inputlag.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/joysticks.dir/joysticks.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/joysticks.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/joysticks.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/joysticks.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/opacity.dir/opacity.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/opacity.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/opacity.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/opacity.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/tearing.dir/tearing.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/tearing.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/tearing.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/tearing.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/threads.dir/threads.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/threads.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/threads.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/threads.dir/__/deps/tinycthread.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/tinycthread.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/tinycthread.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/threads.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/timeout.dir/timeout.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/timeout.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/timeout.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/timeout.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/title.dir/title.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/title.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/title.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/title.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/triangle-vulkan.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/triangle-vulkan.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_vulkan.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_vulkan.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/windows.dir/windows.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/windows.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/tests/windows.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/windows.dir/__/deps/getopt.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/getopt.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/getopt.c"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build/libs/glfw3/tests",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu99 -o CMakeFiles/windows.dir/__/deps/glad_gl.c.o -c /Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c",
+  "file": "/Users/archiejames/coding/Spyder_copy/libs/glfw3/deps/glad_gl.c"
+}
+]
