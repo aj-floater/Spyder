@@ -19,14 +19,14 @@ class PropertyManager {
 public:
     static void GuiStartup(){
         // feed inputs to dear imgui, start new frame
-        // ImGui_ImplOpenGL3_NewFrame();
-        // ImGui_ImplGlfw_NewFrame();
+        ImGui_ImplOpenGL3_NewFrame();
+        ImGui_ImplGlfw_NewFrame();
         ImGui::NewFrame();
     }
     static void GuiEnd(){
         // Render dear imgui into screen
         ImGui::Render();
-        // ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
+        ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
     }
     // Variables
     static float directional_light[3];

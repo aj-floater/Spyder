@@ -4,7 +4,7 @@
 # compile C with /usr/bin/clang
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include
+C_INCLUDES = -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/src/third-party/imgui -I/Users/archiejames/coding/Spyder_copy/include
 
 C_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
 

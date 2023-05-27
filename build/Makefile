@@ -784,6 +784,54 @@ src/third-party/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/src/third-party/glad.c.s
 .PHONY : src/third-party/glad.c.s
 
+src/third-party/imgui/backends/imgui_impl_glfw.o: src/third-party/imgui/backends/imgui_impl_glfw.cpp.o
+.PHONY : src/third-party/imgui/backends/imgui_impl_glfw.o
+
+# target to build an object file
+src/third-party/imgui/backends/imgui_impl_glfw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spyder.dir/build.make CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.o
+.PHONY : src/third-party/imgui/backends/imgui_impl_glfw.cpp.o
+
+src/third-party/imgui/backends/imgui_impl_glfw.i: src/third-party/imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : src/third-party/imgui/backends/imgui_impl_glfw.i
+
+# target to preprocess a source file
+src/third-party/imgui/backends/imgui_impl_glfw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spyder.dir/build.make CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : src/third-party/imgui/backends/imgui_impl_glfw.cpp.i
+
+src/third-party/imgui/backends/imgui_impl_glfw.s: src/third-party/imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : src/third-party/imgui/backends/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+src/third-party/imgui/backends/imgui_impl_glfw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spyder.dir/build.make CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : src/third-party/imgui/backends/imgui_impl_glfw.cpp.s
+
+src/third-party/imgui/backends/imgui_impl_opengl3.o: src/third-party/imgui/backends/imgui_impl_opengl3.cpp.o
+.PHONY : src/third-party/imgui/backends/imgui_impl_opengl3.o
+
+# target to build an object file
+src/third-party/imgui/backends/imgui_impl_opengl3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spyder.dir/build.make CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.o
+.PHONY : src/third-party/imgui/backends/imgui_impl_opengl3.cpp.o
+
+src/third-party/imgui/backends/imgui_impl_opengl3.i: src/third-party/imgui/backends/imgui_impl_opengl3.cpp.i
+.PHONY : src/third-party/imgui/backends/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+src/third-party/imgui/backends/imgui_impl_opengl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spyder.dir/build.make CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.i
+.PHONY : src/third-party/imgui/backends/imgui_impl_opengl3.cpp.i
+
+src/third-party/imgui/backends/imgui_impl_opengl3.s: src/third-party/imgui/backends/imgui_impl_opengl3.cpp.s
+.PHONY : src/third-party/imgui/backends/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+src/third-party/imgui/backends/imgui_impl_opengl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spyder.dir/build.make CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.s
+.PHONY : src/third-party/imgui/backends/imgui_impl_opengl3.cpp.s
+
 src/third-party/imgui/imgui.o: src/third-party/imgui/imgui.cpp.o
 .PHONY : src/third-party/imgui/imgui.o
 
@@ -996,6 +1044,12 @@ help:
 	@echo "... src/third-party/glad.o"
 	@echo "... src/third-party/glad.i"
 	@echo "... src/third-party/glad.s"
+	@echo "... src/third-party/imgui/backends/imgui_impl_glfw.o"
+	@echo "... src/third-party/imgui/backends/imgui_impl_glfw.i"
+	@echo "... src/third-party/imgui/backends/imgui_impl_glfw.s"
+	@echo "... src/third-party/imgui/backends/imgui_impl_opengl3.o"
+	@echo "... src/third-party/imgui/backends/imgui_impl_opengl3.i"
+	@echo "... src/third-party/imgui/backends/imgui_impl_opengl3.s"
 	@echo "... src/third-party/imgui/imgui.o"
 	@echo "... src/third-party/imgui/imgui.i"
 	@echo "... src/third-party/imgui/imgui.s"

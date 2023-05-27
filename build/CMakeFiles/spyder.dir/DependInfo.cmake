@@ -14,6 +14,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/archiejames/coding/Spyder_copy/src/position.cpp" "CMakeFiles/spyder.dir/src/position.cpp.o" "gcc" "CMakeFiles/spyder.dir/src/position.cpp.o.d"
   "/Users/archiejames/coding/Spyder_copy/src/property_manager.cpp" "CMakeFiles/spyder.dir/src/property_manager.cpp.o" "gcc" "CMakeFiles/spyder.dir/src/property_manager.cpp.o.d"
   "/Users/archiejames/coding/Spyder_copy/src/resource_manager.cpp" "CMakeFiles/spyder.dir/src/resource_manager.cpp.o" "gcc" "CMakeFiles/spyder.dir/src/resource_manager.cpp.o.d"
+  "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui/backends/imgui_impl_glfw.cpp" "CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.o" "gcc" "CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.o.d"
+  "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui/backends/imgui_impl_opengl3.cpp" "CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.o" "gcc" "CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.o.d"
   "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui.cpp" "CMakeFiles/spyder.dir/src/third-party/imgui/imgui.cpp.o" "gcc" "CMakeFiles/spyder.dir/src/third-party/imgui/imgui.cpp.o.d"
   "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_demo.cpp" "CMakeFiles/spyder.dir/src/third-party/imgui/imgui_demo.cpp.o" "gcc" "CMakeFiles/spyder.dir/src/third-party/imgui/imgui_demo.cpp.o.d"
   "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_draw.cpp" "CMakeFiles/spyder.dir/src/third-party/imgui/imgui_draw.cpp.o" "gcc" "CMakeFiles/spyder.dir/src/third-party/imgui/imgui_draw.cpp.o.d"

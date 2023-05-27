@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include
+CXX_INCLUDES = -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/src/third-party/imgui -I/Users/archiejames/coding/Spyder_copy/include
 
 CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11
 

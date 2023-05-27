@@ -27,13 +27,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 38,
+				"line" : 41,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 40,
+				"line" : 43,
 				"parent" : 0
 			},
 			{
@@ -55,6 +55,12 @@
 				"command" : 2,
 				"file" : 0,
 				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 12,
 				"parent" : 0
 			}
 		]
@@ -79,6 +85,10 @@
 				},
 				{
 					"backtrace" : 6,
+					"path" : "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui"
+				},
+				{
+					"backtrace" : 7,
 					"path" : "/Users/archiejames/coding/Spyder_copy/include"
 				},
 				{
@@ -111,7 +121,9 @@
 				7,
 				8,
 				9,
-				10
+				10,
+				11,
+				12
 			]
 		}
 	],
@@ -207,7 +219,9 @@
 				7,
 				8,
 				9,
-				10
+				10,
+				11,
+				12
 			]
 		}
 	],
@@ -247,6 +261,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/resource_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/third-party/imgui/backends/imgui_impl_glfw.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/third-party/imgui/backends/imgui_impl_opengl3.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

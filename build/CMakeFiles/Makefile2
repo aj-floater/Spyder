@@ -268,12 +268,12 @@ CMakeFiles/GLAD.dir/clean:
 CMakeFiles/STB_IMAGE.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=2,3 "Built target STB_IMAGE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=2 "Built target STB_IMAGE"
 .PHONY : CMakeFiles/STB_IMAGE.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/STB_IMAGE.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/STB_IMAGE.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 0
 .PHONY : CMakeFiles/STB_IMAGE.dir/rule
@@ -296,12 +296,12 @@ CMakeFiles/spyder.dir/all: CMakeFiles/STB_IMAGE.dir/all
 CMakeFiles/spyder.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spyder.dir/build.make CMakeFiles/spyder.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spyder.dir/build.make CMakeFiles/spyder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=73,74,75,76,77,78,79,80,81 "Built target spyder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=72,73,74,75,76,77,78,79,80,81,82 "Built target spyder"
 .PHONY : CMakeFiles/spyder.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/spyder.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/spyder.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 0
 .PHONY : CMakeFiles/spyder.dir/rule
@@ -348,12 +348,12 @@ libs/glfw3/CMakeFiles/uninstall.dir/clean:
 libs/glfw3/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/src/CMakeFiles/update_mappings.dir/build.make libs/glfw3/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/src/CMakeFiles/update_mappings.dir/build.make libs/glfw3/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=94 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num= "Built target update_mappings"
 .PHONY : libs/glfw3/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
 libs/glfw3/src/CMakeFiles/update_mappings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/glfw3/src/CMakeFiles/update_mappings.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 0
 .PHONY : libs/glfw3/src/CMakeFiles/update_mappings.dir/rule
@@ -374,7 +374,7 @@ libs/glfw3/src/CMakeFiles/update_mappings.dir/clean:
 libs/glfw3/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/src/CMakeFiles/glfw.dir/build.make libs/glfw3/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/src/CMakeFiles/glfw.dir/build.make libs/glfw3/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=22,23,24,25,26,27,28,29,30,31,32,33 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30,31,32 "Built target glfw"
 .PHONY : libs/glfw3/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -400,12 +400,12 @@ libs/glfw3/src/CMakeFiles/glfw.dir/clean:
 libs/glfw3/examples/CMakeFiles/boing.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/examples/CMakeFiles/boing.dir/build.make libs/glfw3/examples/CMakeFiles/boing.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/examples/CMakeFiles/boing.dir/build.make libs/glfw3/examples/CMakeFiles/boing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=4,5 "Built target boing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=3,4,5 "Built target boing"
 .PHONY : libs/glfw3/examples/CMakeFiles/boing.dir/all
 
 # Build rule for subdir invocation for target.
 libs/glfw3/examples/CMakeFiles/boing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/glfw3/examples/CMakeFiles/boing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 0
 .PHONY : libs/glfw3/examples/CMakeFiles/boing.dir/rule
@@ -426,12 +426,12 @@ libs/glfw3/examples/CMakeFiles/boing.dir/clean:
 libs/glfw3/examples/CMakeFiles/gears.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/examples/CMakeFiles/gears.dir/build.make libs/glfw3/examples/CMakeFiles/gears.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/examples/CMakeFiles/gears.dir/build.make libs/glfw3/examples/CMakeFiles/gears.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=19,20,21 "Built target gears"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=19,20 "Built target gears"
 .PHONY : libs/glfw3/examples/CMakeFiles/gears.dir/all
 
 # Build rule for subdir invocation for target.
 libs/glfw3/examples/CMakeFiles/gears.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/glfw3/examples/CMakeFiles/gears.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 0
 .PHONY : libs/glfw3/examples/CMakeFiles/gears.dir/rule
@@ -452,12 +452,12 @@ libs/glfw3/examples/CMakeFiles/gears.dir/clean:
 libs/glfw3/examples/CMakeFiles/heightmap.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/examples/CMakeFiles/heightmap.dir/build.make libs/glfw3/examples/CMakeFiles/heightmap.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/examples/CMakeFiles/heightmap.dir/build.make libs/glfw3/examples/CMakeFiles/heightmap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=37,38,39 "Built target heightmap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=37,38 "Built target heightmap"
 .PHONY : libs/glfw3/examples/CMakeFiles/heightmap.dir/all
 
 # Build rule for subdir invocation for target.
 libs/glfw3/examples/CMakeFiles/heightmap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/glfw3/examples/CMakeFiles/heightmap.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 0
 .PHONY : libs/glfw3/examples/CMakeFiles/heightmap.dir/rule
@@ -478,12 +478,12 @@ libs/glfw3/examples/CMakeFiles/heightmap.dir/clean:
 libs/glfw3/examples/CMakeFiles/offscreen.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/examples/CMakeFiles/offscreen.dir/build.make libs/glfw3/examples/CMakeFiles/offscreen.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/examples/CMakeFiles/offscreen.dir/build.make libs/glfw3/examples/CMakeFiles/offscreen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=56,57 "Built target offscreen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=55,56,57 "Built target offscreen"
 .PHONY : libs/glfw3/examples/CMakeFiles/offscreen.dir/all
 
 # Build rule for subdir invocation for target.
 libs/glfw3/examples/CMakeFiles/offscreen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/glfw3/examples/CMakeFiles/offscreen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 0
 .PHONY : libs/glfw3/examples/CMakeFiles/offscreen.dir/rule
@@ -504,7 +504,7 @@ libs/glfw3/examples/CMakeFiles/offscreen.dir/clean:
 libs/glfw3/examples/CMakeFiles/particles.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/examples/CMakeFiles/particles.dir/build.make libs/glfw3/examples/CMakeFiles/particles.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/examples/CMakeFiles/particles.dir/build.make libs/glfw3/examples/CMakeFiles/particles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=61,62,63 "Built target particles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=60,61,62 "Built target particles"
 .PHONY : libs/glfw3/examples/CMakeFiles/particles.dir/all
 
 # Build rule for subdir invocation for target.
@@ -530,7 +530,7 @@ libs/glfw3/examples/CMakeFiles/particles.dir/clean:
 libs/glfw3/examples/CMakeFiles/sharing.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/examples/CMakeFiles/sharing.dir/build.make libs/glfw3/examples/CMakeFiles/sharing.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/examples/CMakeFiles/sharing.dir/build.make libs/glfw3/examples/CMakeFiles/sharing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=67,68 "Built target sharing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=66,67 "Built target sharing"
 .PHONY : libs/glfw3/examples/CMakeFiles/sharing.dir/all
 
 # Build rule for subdir invocation for target.
@@ -556,7 +556,7 @@ libs/glfw3/examples/CMakeFiles/sharing.dir/clean:
 libs/glfw3/examples/CMakeFiles/simple.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/examples/CMakeFiles/simple.dir/build.make libs/glfw3/examples/CMakeFiles/simple.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/examples/CMakeFiles/simple.dir/build.make libs/glfw3/examples/CMakeFiles/simple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=69,70 "Built target simple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=68,69 "Built target simple"
 .PHONY : libs/glfw3/examples/CMakeFiles/simple.dir/all
 
 # Build rule for subdir invocation for target.
@@ -582,7 +582,7 @@ libs/glfw3/examples/CMakeFiles/simple.dir/clean:
 libs/glfw3/examples/CMakeFiles/splitview.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/examples/CMakeFiles/splitview.dir/build.make libs/glfw3/examples/CMakeFiles/splitview.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/examples/CMakeFiles/splitview.dir/build.make libs/glfw3/examples/CMakeFiles/splitview.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=71,72 "Built target splitview"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=70,71 "Built target splitview"
 .PHONY : libs/glfw3/examples/CMakeFiles/splitview.dir/all
 
 # Build rule for subdir invocation for target.
@@ -608,12 +608,12 @@ libs/glfw3/examples/CMakeFiles/splitview.dir/clean:
 libs/glfw3/examples/CMakeFiles/wave.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/examples/CMakeFiles/wave.dir/build.make libs/glfw3/examples/CMakeFiles/wave.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/examples/CMakeFiles/wave.dir/build.make libs/glfw3/examples/CMakeFiles/wave.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=95,96 "Built target wave"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=95,96,97 "Built target wave"
 .PHONY : libs/glfw3/examples/CMakeFiles/wave.dir/all
 
 # Build rule for subdir invocation for target.
 libs/glfw3/examples/CMakeFiles/wave.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/glfw3/examples/CMakeFiles/wave.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 0
 .PHONY : libs/glfw3/examples/CMakeFiles/wave.dir/rule
@@ -686,7 +686,7 @@ libs/glfw3/tests/CMakeFiles/events.dir/clean:
 libs/glfw3/tests/CMakeFiles/msaa.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/msaa.dir/build.make libs/glfw3/tests/CMakeFiles/msaa.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/msaa.dir/build.make libs/glfw3/tests/CMakeFiles/msaa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=53,54,55 "Built target msaa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=52,53,54 "Built target msaa"
 .PHONY : libs/glfw3/tests/CMakeFiles/msaa.dir/all
 
 # Build rule for subdir invocation for target.
@@ -712,12 +712,12 @@ libs/glfw3/tests/CMakeFiles/msaa.dir/clean:
 libs/glfw3/tests/CMakeFiles/glfwinfo.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/glfwinfo.dir/build.make libs/glfw3/tests/CMakeFiles/glfwinfo.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/glfwinfo.dir/build.make libs/glfw3/tests/CMakeFiles/glfwinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=34,35,36 "Built target glfwinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=33,34,35,36 "Built target glfwinfo"
 .PHONY : libs/glfw3/tests/CMakeFiles/glfwinfo.dir/all
 
 # Build rule for subdir invocation for target.
 libs/glfw3/tests/CMakeFiles/glfwinfo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/glfw3/tests/CMakeFiles/glfwinfo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 0
 .PHONY : libs/glfw3/tests/CMakeFiles/glfwinfo.dir/rule
@@ -738,7 +738,7 @@ libs/glfw3/tests/CMakeFiles/glfwinfo.dir/clean:
 libs/glfw3/tests/CMakeFiles/iconify.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/iconify.dir/build.make libs/glfw3/tests/CMakeFiles/iconify.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/iconify.dir/build.make libs/glfw3/tests/CMakeFiles/iconify.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=42,43,44 "Built target iconify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=41,42,43 "Built target iconify"
 .PHONY : libs/glfw3/tests/CMakeFiles/iconify.dir/all
 
 # Build rule for subdir invocation for target.
@@ -764,7 +764,7 @@ libs/glfw3/tests/CMakeFiles/iconify.dir/clean:
 libs/glfw3/tests/CMakeFiles/monitors.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/monitors.dir/build.make libs/glfw3/tests/CMakeFiles/monitors.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/monitors.dir/build.make libs/glfw3/tests/CMakeFiles/monitors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=50,51,52 "Built target monitors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=49,50,51 "Built target monitors"
 .PHONY : libs/glfw3/tests/CMakeFiles/monitors.dir/all
 
 # Build rule for subdir invocation for target.
@@ -790,7 +790,7 @@ libs/glfw3/tests/CMakeFiles/monitors.dir/clean:
 libs/glfw3/tests/CMakeFiles/reopen.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/reopen.dir/build.make libs/glfw3/tests/CMakeFiles/reopen.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/reopen.dir/build.make libs/glfw3/tests/CMakeFiles/reopen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=64,65,66 "Built target reopen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=63,64,65 "Built target reopen"
 .PHONY : libs/glfw3/tests/CMakeFiles/reopen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -894,7 +894,7 @@ libs/glfw3/tests/CMakeFiles/gamma.dir/clean:
 libs/glfw3/tests/CMakeFiles/icon.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/icon.dir/build.make libs/glfw3/tests/CMakeFiles/icon.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/icon.dir/build.make libs/glfw3/tests/CMakeFiles/icon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=40,41 "Built target icon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=39,40 "Built target icon"
 .PHONY : libs/glfw3/tests/CMakeFiles/icon.dir/all
 
 # Build rule for subdir invocation for target.
@@ -920,7 +920,7 @@ libs/glfw3/tests/CMakeFiles/icon.dir/clean:
 libs/glfw3/tests/CMakeFiles/inputlag.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/inputlag.dir/build.make libs/glfw3/tests/CMakeFiles/inputlag.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/inputlag.dir/build.make libs/glfw3/tests/CMakeFiles/inputlag.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=45,46,47 "Built target inputlag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=44,45,46 "Built target inputlag"
 .PHONY : libs/glfw3/tests/CMakeFiles/inputlag.dir/all
 
 # Build rule for subdir invocation for target.
@@ -946,7 +946,7 @@ libs/glfw3/tests/CMakeFiles/inputlag.dir/clean:
 libs/glfw3/tests/CMakeFiles/joysticks.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/joysticks.dir/build.make libs/glfw3/tests/CMakeFiles/joysticks.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/joysticks.dir/build.make libs/glfw3/tests/CMakeFiles/joysticks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=48,49 "Built target joysticks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=47,48 "Built target joysticks"
 .PHONY : libs/glfw3/tests/CMakeFiles/joysticks.dir/all
 
 # Build rule for subdir invocation for target.
@@ -972,12 +972,12 @@ libs/glfw3/tests/CMakeFiles/joysticks.dir/clean:
 libs/glfw3/tests/CMakeFiles/opacity.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/opacity.dir/build.make libs/glfw3/tests/CMakeFiles/opacity.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/opacity.dir/build.make libs/glfw3/tests/CMakeFiles/opacity.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=58,59,60 "Built target opacity"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=58,59 "Built target opacity"
 .PHONY : libs/glfw3/tests/CMakeFiles/opacity.dir/all
 
 # Build rule for subdir invocation for target.
 libs/glfw3/tests/CMakeFiles/opacity.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/glfw3/tests/CMakeFiles/opacity.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 0
 .PHONY : libs/glfw3/tests/CMakeFiles/opacity.dir/rule
@@ -998,12 +998,12 @@ libs/glfw3/tests/CMakeFiles/opacity.dir/clean:
 libs/glfw3/tests/CMakeFiles/tearing.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/tearing.dir/build.make libs/glfw3/tests/CMakeFiles/tearing.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/tearing.dir/build.make libs/glfw3/tests/CMakeFiles/tearing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=82,83,84 "Built target tearing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=83,84 "Built target tearing"
 .PHONY : libs/glfw3/tests/CMakeFiles/tearing.dir/all
 
 # Build rule for subdir invocation for target.
 libs/glfw3/tests/CMakeFiles/tearing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/glfw3/tests/CMakeFiles/tearing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 0
 .PHONY : libs/glfw3/tests/CMakeFiles/tearing.dir/rule
@@ -1102,12 +1102,12 @@ libs/glfw3/tests/CMakeFiles/title.dir/clean:
 libs/glfw3/tests/CMakeFiles/triangle-vulkan.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/triangle-vulkan.dir/build.make libs/glfw3/tests/CMakeFiles/triangle-vulkan.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/triangle-vulkan.dir/build.make libs/glfw3/tests/CMakeFiles/triangle-vulkan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=92,93 "Built target triangle-vulkan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=92,93,94 "Built target triangle-vulkan"
 .PHONY : libs/glfw3/tests/CMakeFiles/triangle-vulkan.dir/all
 
 # Build rule for subdir invocation for target.
 libs/glfw3/tests/CMakeFiles/triangle-vulkan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/glfw3/tests/CMakeFiles/triangle-vulkan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 0
 .PHONY : libs/glfw3/tests/CMakeFiles/triangle-vulkan.dir/rule
@@ -1128,12 +1128,12 @@ libs/glfw3/tests/CMakeFiles/triangle-vulkan.dir/clean:
 libs/glfw3/tests/CMakeFiles/windows.dir/all: libs/glfw3/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/windows.dir/build.make libs/glfw3/tests/CMakeFiles/windows.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/glfw3/tests/CMakeFiles/windows.dir/build.make libs/glfw3/tests/CMakeFiles/windows.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=97,98,99,100 "Built target windows"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=98,99,100 "Built target windows"
 .PHONY : libs/glfw3/tests/CMakeFiles/windows.dir/all
 
 # Build rule for subdir invocation for target.
 libs/glfw3/tests/CMakeFiles/windows.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/glfw3/tests/CMakeFiles/windows.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/archiejames/coding/Spyder_copy/build/CMakeFiles 0
 .PHONY : libs/glfw3/tests/CMakeFiles/windows.dir/rule

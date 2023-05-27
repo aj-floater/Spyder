@@ -35,8 +35,8 @@ void Game::Init(){
     ImGui::CreateContext();
     ImGuiIO &io = ImGui::GetIO();
     // Setup Platform/Renderer bindings
-    // ImGui_ImplGlfw_InitForOpenGL(Game::window, true);
-    // ImGui_ImplOpenGL3_Init("#version 150");
+    ImGui_ImplGlfw_InitForOpenGL(Game::window, true);
+    ImGui_ImplOpenGL3_Init("#version 150");
     // Setup Dear ImGui style
     ImGui::StyleColorsDark();
 

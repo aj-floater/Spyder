@@ -8,6 +8,7 @@ add_subdirectory(${CMAKE_SOURCE_DIR}/libs/glm)
 
 # adds include directory
 include_directories(${CMAKE_SOURCE_DIR}/src/third-party)
+include_directories(${CMAKE_SOURCE_DIR}/src/third-party/imgui)
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
 set(LIBS glfw glm)
@@ -29,6 +30,8 @@ set(LIBS ${LIBS} GLAD STB_IMAGE)
 file(GLOB SOURCE
     "src/*.cpp"
     "src/third-party/imgui/*.cpp"
+    "src/third-party/imgui/backends/imgui_impl_opengl3.cpp"
+    "src/third-party/imgui/backends/imgui_impl_glfw.cpp"
 )
 
 # copy resources directory into build folder

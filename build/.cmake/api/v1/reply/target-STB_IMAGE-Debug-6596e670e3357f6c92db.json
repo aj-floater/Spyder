@@ -26,7 +26,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 25,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
@@ -39,6 +39,12 @@
 				"command" : 1,
 				"file" : 0,
 				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 12,
 				"parent" : 0
 			}
 		]
@@ -63,6 +69,10 @@
 				},
 				{
 					"backtrace" : 3,
+					"path" : "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui"
+				},
+				{
+					"backtrace" : 4,
 					"path" : "/Users/archiejames/coding/Spyder_copy/include"
 				}
 			],

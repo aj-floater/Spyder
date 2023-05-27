@@ -153,10 +153,38 @@ CMakeFiles/spyder.dir/src/resource_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spyder.dir/src/resource_manager.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archiejames/coding/Spyder_copy/src/resource_manager.cpp -o CMakeFiles/spyder.dir/src/resource_manager.cpp.s
 
+CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/spyder.dir/flags.make
+CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.o: ../src/third-party/imgui/backends/imgui_impl_glfw.cpp
+CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/spyder.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/backends/imgui_impl_glfw.cpp
+
+CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/backends/imgui_impl_glfw.cpp > CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.i
+
+CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/backends/imgui_impl_glfw.cpp -o CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.s
+
+CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/spyder.dir/flags.make
+CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.o: ../src/third-party/imgui/backends/imgui_impl_opengl3.cpp
+CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/spyder.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/backends/imgui_impl_opengl3.cpp
+
+CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/backends/imgui_impl_opengl3.cpp > CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.i
+
+CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/backends/imgui_impl_opengl3.cpp -o CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.s
+
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui.cpp.o: CMakeFiles/spyder.dir/flags.make
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui.cpp.o: ../src/third-party/imgui/imgui.cpp
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui.cpp.o: CMakeFiles/spyder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/spyder.dir/src/third-party/imgui/imgui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/spyder.dir/src/third-party/imgui/imgui.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spyder.dir/src/third-party/imgui/imgui.cpp.o -MF CMakeFiles/spyder.dir/src/third-party/imgui/imgui.cpp.o.d -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui.cpp
 
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui.cpp.i: cmake_force
@@ -170,7 +198,7 @@ CMakeFiles/spyder.dir/src/third-party/imgui/imgui.cpp.s: cmake_force
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui_demo.cpp.o: CMakeFiles/spyder.dir/flags.make
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui_demo.cpp.o: ../src/third-party/imgui/imgui_demo.cpp
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui_demo.cpp.o: CMakeFiles/spyder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/spyder.dir/src/third-party/imgui/imgui_demo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/spyder.dir/src/third-party/imgui/imgui_demo.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spyder.dir/src/third-party/imgui/imgui_demo.cpp.o -MF CMakeFiles/spyder.dir/src/third-party/imgui/imgui_demo.cpp.o.d -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui_demo.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_demo.cpp
 
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui_demo.cpp.i: cmake_force
@@ -184,7 +212,7 @@ CMakeFiles/spyder.dir/src/third-party/imgui/imgui_demo.cpp.s: cmake_force
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui_draw.cpp.o: CMakeFiles/spyder.dir/flags.make
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui_draw.cpp.o: ../src/third-party/imgui/imgui_draw.cpp
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui_draw.cpp.o: CMakeFiles/spyder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/spyder.dir/src/third-party/imgui/imgui_draw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/spyder.dir/src/third-party/imgui/imgui_draw.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spyder.dir/src/third-party/imgui/imgui_draw.cpp.o -MF CMakeFiles/spyder.dir/src/third-party/imgui/imgui_draw.cpp.o.d -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui_draw.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_draw.cpp
 
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui_draw.cpp.i: cmake_force
@@ -198,7 +226,7 @@ CMakeFiles/spyder.dir/src/third-party/imgui/imgui_draw.cpp.s: cmake_force
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui_tables.cpp.o: CMakeFiles/spyder.dir/flags.make
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui_tables.cpp.o: ../src/third-party/imgui/imgui_tables.cpp
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui_tables.cpp.o: CMakeFiles/spyder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/spyder.dir/src/third-party/imgui/imgui_tables.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/spyder.dir/src/third-party/imgui/imgui_tables.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spyder.dir/src/third-party/imgui/imgui_tables.cpp.o -MF CMakeFiles/spyder.dir/src/third-party/imgui/imgui_tables.cpp.o.d -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui_tables.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_tables.cpp
 
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui_tables.cpp.i: cmake_force
@@ -212,7 +240,7 @@ CMakeFiles/spyder.dir/src/third-party/imgui/imgui_tables.cpp.s: cmake_force
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui_widgets.cpp.o: CMakeFiles/spyder.dir/flags.make
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui_widgets.cpp.o: ../src/third-party/imgui/imgui_widgets.cpp
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui_widgets.cpp.o: CMakeFiles/spyder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/spyder.dir/src/third-party/imgui/imgui_widgets.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/spyder.dir/src/third-party/imgui/imgui_widgets.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spyder.dir/src/third-party/imgui/imgui_widgets.cpp.o -MF CMakeFiles/spyder.dir/src/third-party/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui_widgets.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_widgets.cpp
 
 CMakeFiles/spyder.dir/src/third-party/imgui/imgui_widgets.cpp.i: cmake_force
@@ -231,6 +259,8 @@ spyder_OBJECTS = \
 "CMakeFiles/spyder.dir/src/position.cpp.o" \
 "CMakeFiles/spyder.dir/src/property_manager.cpp.o" \
 "CMakeFiles/spyder.dir/src/resource_manager.cpp.o" \
+"CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.o" \
+"CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.o" \
 "CMakeFiles/spyder.dir/src/third-party/imgui/imgui.cpp.o" \
 "CMakeFiles/spyder.dir/src/third-party/imgui/imgui_demo.cpp.o" \
 "CMakeFiles/spyder.dir/src/third-party/imgui/imgui_draw.cpp.o" \
@@ -246,6 +276,8 @@ spyder: CMakeFiles/spyder.dir/src/main.cpp.o
 spyder: CMakeFiles/spyder.dir/src/position.cpp.o
 spyder: CMakeFiles/spyder.dir/src/property_manager.cpp.o
 spyder: CMakeFiles/spyder.dir/src/resource_manager.cpp.o
+spyder: CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.o
+spyder: CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.o
 spyder: CMakeFiles/spyder.dir/src/third-party/imgui/imgui.cpp.o
 spyder: CMakeFiles/spyder.dir/src/third-party/imgui/imgui_demo.cpp.o
 spyder: CMakeFiles/spyder.dir/src/third-party/imgui/imgui_draw.cpp.o
@@ -256,7 +288,7 @@ spyder: libs/glfw3/src/libglfw3.a
 spyder: libGLAD.a
 spyder: libSTB_IMAGE.a
 spyder: CMakeFiles/spyder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable spyder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/archiejames/coding/Spyder_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable spyder"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spyder.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

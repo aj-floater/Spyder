@@ -1,67 +1,77 @@
 [
 {
   "directory": "/Users/archiejames/coding/Spyder_copy/build",
-  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o CMakeFiles/GLAD.dir/src/third-party/glad.c.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/glad.c",
+  "command": "/usr/bin/clang  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/src/third-party/imgui -I/Users/archiejames/coding/Spyder_copy/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o CMakeFiles/GLAD.dir/src/third-party/glad.c.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/glad.c",
   "file": "/Users/archiejames/coding/Spyder_copy/src/third-party/glad.c"
 },
 {
   "directory": "/Users/archiejames/coding/Spyder_copy/build",
-  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/STB_IMAGE.dir/src/third-party/stb_image.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/stb_image.cpp",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/src/third-party/imgui -I/Users/archiejames/coding/Spyder_copy/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/STB_IMAGE.dir/src/third-party/stb_image.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/stb_image.cpp",
   "file": "/Users/archiejames/coding/Spyder_copy/src/third-party/stb_image.cpp"
 },
 {
   "directory": "/Users/archiejames/coding/Spyder_copy/build",
-  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/game.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/game.cpp",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/src/third-party/imgui -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/game.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/game.cpp",
   "file": "/Users/archiejames/coding/Spyder_copy/src/game.cpp"
 },
 {
   "directory": "/Users/archiejames/coding/Spyder_copy/build",
-  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/get_path.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/get_path.cpp",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/src/third-party/imgui -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/get_path.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/get_path.cpp",
   "file": "/Users/archiejames/coding/Spyder_copy/src/get_path.cpp"
 },
 {
   "directory": "/Users/archiejames/coding/Spyder_copy/build",
-  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/main.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/main.cpp",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/src/third-party/imgui -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/main.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/main.cpp",
   "file": "/Users/archiejames/coding/Spyder_copy/src/main.cpp"
 },
 {
   "directory": "/Users/archiejames/coding/Spyder_copy/build",
-  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/position.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/position.cpp",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/src/third-party/imgui -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/position.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/position.cpp",
   "file": "/Users/archiejames/coding/Spyder_copy/src/position.cpp"
 },
 {
   "directory": "/Users/archiejames/coding/Spyder_copy/build",
-  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/property_manager.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/property_manager.cpp",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/src/third-party/imgui -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/property_manager.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/property_manager.cpp",
   "file": "/Users/archiejames/coding/Spyder_copy/src/property_manager.cpp"
 },
 {
   "directory": "/Users/archiejames/coding/Spyder_copy/build",
-  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/resource_manager.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/resource_manager.cpp",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/src/third-party/imgui -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/resource_manager.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/resource_manager.cpp",
   "file": "/Users/archiejames/coding/Spyder_copy/src/resource_manager.cpp"
 },
 {
   "directory": "/Users/archiejames/coding/Spyder_copy/build",
-  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui.cpp",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/src/third-party/imgui -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_glfw.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/backends/imgui_impl_glfw.cpp",
+  "file": "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui/backends/imgui_impl_glfw.cpp"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/src/third-party/imgui -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/third-party/imgui/backends/imgui_impl_opengl3.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/backends/imgui_impl_opengl3.cpp",
+  "file": "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui/backends/imgui_impl_opengl3.cpp"
+},
+{
+  "directory": "/Users/archiejames/coding/Spyder_copy/build",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/src/third-party/imgui -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui.cpp",
   "file": "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui.cpp"
 },
 {
   "directory": "/Users/archiejames/coding/Spyder_copy/build",
-  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui_demo.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_demo.cpp",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/src/third-party/imgui -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui_demo.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_demo.cpp",
   "file": "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_demo.cpp"
 },
 {
   "directory": "/Users/archiejames/coding/Spyder_copy/build",
-  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui_draw.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_draw.cpp",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/src/third-party/imgui -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui_draw.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_draw.cpp",
   "file": "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_draw.cpp"
 },
 {
   "directory": "/Users/archiejames/coding/Spyder_copy/build",
-  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui_tables.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_tables.cpp",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/src/third-party/imgui -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui_tables.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_tables.cpp",
   "file": "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_tables.cpp"
 },
 {
   "directory": "/Users/archiejames/coding/Spyder_copy/build",
-  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui_widgets.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_widgets.cpp",
+  "command": "/usr/bin/clang++  -I/Users/archiejames/coding/Spyder_copy/src/third-party -I/Users/archiejames/coding/Spyder_copy/src/third-party/imgui -I/Users/archiejames/coding/Spyder_copy/include -I/Users/archiejames/coding/Spyder_copy/libs/glfw3/include -I/Users/archiejames/coding/Spyder_copy/libs/glm/glm/.. -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11 -o CMakeFiles/spyder.dir/src/third-party/imgui/imgui_widgets.cpp.o -c /Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_widgets.cpp",
   "file": "/Users/archiejames/coding/Spyder_copy/src/third-party/imgui/imgui_widgets.cpp"
 },
 {
