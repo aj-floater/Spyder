@@ -56,6 +56,8 @@ The project is structured as follows:
 - `include`: Header files directory.
 - `resources`: Resources directory (textures, models, etc.).
 
+There are summaries for the robot simulation itself in the include directory under all *.md files. 
+
 ## Usage
 
 Upon running the executable, you will see the 3D simulation window with the spyder robot displayed. Use the following controls to interact with the simulation:
