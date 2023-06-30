@@ -1,5 +1,7 @@
 # Spyder Project
 
+<img width="1258" alt="Screenshot 2023-05-28 at 00 52 37" src="https://github.com/aj-floater/Spyder/assets/80073564/b19124f6-5ea1-4aed-b1f3-4fa58abffb8e">
+
 This project is a 3D simulation of a spyder-like robotic hexapod using OpenGL and C++. It allows for interactive control and movement of the whole robot.
 
 ## Installation
