@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    
+  {
+    "name": "(lldb) Launch",
+    "type": "cppdbg",
+    "request": "launch",
+    "program": "${workspaceFolder}/build/spyder",
+    "args": [],
+    "stopAtEntry": false,
+    "cwd": "${fileDirname}",
+    "environment": [],
+    "externalConsole": false,
+    "MIMode": "lldb"
+  }
+  ]
+}

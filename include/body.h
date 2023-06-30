@@ -31,6 +31,7 @@ public:
     Position walk;
     float turn, time = 1;
     bool walking, walk_to_turn, turning, resting;
+    bool rested = true;
     bool turn_callibrated;
     int section_number = 0;
 
@@ -118,9 +119,14 @@ public:
 
         bool all_stopped = true;
         for (int i = 0; i < 6; i++){
-            if (arms[i].moving) all_stopped = false;
+            if (arms[i].moving) {
+                all_stopped = false;
+            }
+            // if (Distance(arms[i].end_rest_point, arms[i].end_point) > 0) 
+            //     rested = false;
         }
         if (all_stopped && walking){
+            // rested = false;
             if (section_number == 0){
                 for (int i = 0; i < 3; i++){
                     arms[i].MoveEndPositionTo(Position(arms[i].end_rest_point.x + walk.x, arms[i].end_rest_point.y, arms[i].end_rest_point.z + walk.z), time, true);
@@ -141,6 +147,7 @@ public:
             }
         }
         if (all_stopped && walk_to_turn){
+            // rested = false;
             if (section_number == 0){
                 for (int i = 0; i < 3; i++){
                     arms[i].MoveEndPositionTo(Position(arms[i].radius * cosf(arms[i].rest_angle - turn), arms[i].end_rest_point.y, arms[i].radius * sinf(arms[i].rest_angle - turn)), time, false);
@@ -157,6 +164,7 @@ public:
             }
         }
         if (all_stopped && turning){
+            // rested = false;
             if (section_number == 0){
                 for (int i = 0; i < 3; i++){
                     arms[i].MoveEndPositionAroundPointAtAngle(&position, arms[i].rest_angle + turn, time, i, true);
@@ -193,12 +201,13 @@ public:
                         arms[i].MoveEndPositionTo(Position(arms[i].end_rest_point.x, arms[i].end_rest_point.y, arms[i].end_rest_point.z), 0.5, true);
                     }
                     section_number = 0;
+                    // rested = true;
                 }
             }
-            if (rested){
-                resting = false;
-                section_number = 0;
-            }
+            // if (rested){
+            //     resting = false;
+            //     section_number = 0;
+            // }
         }
 
         for (int i = 0; i < 6; i++){

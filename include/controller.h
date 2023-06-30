@@ -63,11 +63,15 @@ public:
         if (left_joystick.radius > 0.2 && !body->turning && !body->resting && !body->walk_to_turn && !JoystickMovementEratic(&left_joystick)){
             body->walking = true;
 
-            body->time = 0.5 / left_joystick.radius;
+            body->time = 0.5 - left_joystick.radius * 0.3;
             if (body->time > 0.5) body->time = 0.5;
+            std::cout << "Left Joystick Radius: " << left_joystick.radius << std::endl;
+            // if (body->time > 0.5) body->time = 0.5;
 
-            body->walk.x = left_joystick.x/2;
-            body->walk.z = left_joystick.z/2;
+            body->walk.x = left_joystick.x * 0.6;
+            body->walk.z = left_joystick.z * 0.6;
+            std::cout << "Left Joystick X: " << left_joystick.x << std::endl;
+            std::cout << "Left Joystick Z: " << left_joystick.z << std::endl;
 
             Position direction = Normalize((body->world_position + body->walk) - body->world_position);
 
@@ -94,12 +98,14 @@ public:
                 body->turning = true;
             }
 
-            body->time = 0.4 / right_joystick.radius;
+            body->time = 0.5 - right_joystick.radius * 0.3;
             if (body->time > 0.5) body->time = 0.5;
+            std::cout << "Right Joystick Radius: " << right_joystick.radius << std::endl;
+            // if (body->time > 0.5) body->time = 0.5;
 
-            body->turn = right_joystick.x/5;
+            body->turn = right_joystick.x * 0.3;
 
-            body->world_angle += body->turn * 4 * PropertyManager::delta_time;
+            body->world_angle += body->turn * 5 * PropertyManager::delta_time;
 
             joystick_idle.start_time = 0;
         }
@@ -113,6 +119,7 @@ public:
             if (joystick_idle.GetTimer(glfwGetTime()) > 1){
                 joystick_idle.start_time = -1;
                 body->resting = true;
+                body->rested = false;
             }
             body->walk.x = 0;
             body->walk.z = 0;

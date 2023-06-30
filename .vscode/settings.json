@@ -79,7 +79,8 @@
         "locale": "cpp",
         "optional": "cpp",
         "stack": "cpp",
-        "string_view": "cpp"
+        "string_view": "cpp",
+        "__bits": "cpp"
     },
     "python.pythonPath": "/usr/bin/python3"
 }

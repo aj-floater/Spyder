@@ -118,7 +118,7 @@ void Game::InitGLAD(){
         std::cout << "Failed to initialize GLAD" << std::endl;
     }
     glfwSetWindowMonitor(window, NULL, 100, 100, mode->width/2, mode->height/2, GLFW_DONT_CARE);
-    framebuffer_size_callback(window, mode->width/2, mode->height/2);
+    framebuffer_size_callback(window, mode->width, mode->height);
 }
 
 // opengl: setup
@@ -206,6 +206,11 @@ void Game::RenderLoop(){
     }
     ImGui::Separator();
     ImGui::End();
+
+    ImGui::Begin("Camera");
+    ImGui::DragFloat("speed", &camera.Zoom, 0.5);
+    ImGui::End();
+
 
     ImGui::Begin("Arm IK Test");
     ImGui::Text( std::string("Motor 1: " + std::to_string(Degrees(arm.motor1_angle))).c_str() );
